@@ -8,7 +8,7 @@
 #' @export
 #'
 #' @examples
-#' \dontrun{ntickets(N=400, gamma=0.02, p=0.95)}
+#' ntickets(N=400, gamma=0.02, p=0.95)
 ntickets <- function(N, gamma, p) {
   # N: number of seats
   # gamma: target overbooking probability
